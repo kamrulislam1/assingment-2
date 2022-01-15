@@ -154,6 +154,9 @@ body{
      text-align: center;
      margin:0px
    }
+   .menu-name {
+    display: flex;
+  }
    .menu-name a {
     text-decoration: none;
   }
