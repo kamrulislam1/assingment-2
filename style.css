@@ -62,3 +62,15 @@ body{
       background: #fc5c65;
       transition: 1s;
   }
+  /* logo style form here 
+  ------------------------ */
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    padding: 12px;
+  }
+  .amazon {
+    margin-top: 12px;
+  }
+  
