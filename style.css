@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    margin:0px;
 }
  /*--------- header style form here --
  ---------------------------------------*/
@@ -141,4 +142,138 @@ body{
     color: pink;
     padding: 12px;
   }
+/* media query style form here  
+--------------------------------*/
+@media only screen and (max-width:668px){
+   
+  .header-container{
+    background-color: rgba(165, 218, 66, .2);
+     width:100%;
+   }
+   .header-container h2{
+     text-align: center;
+     margin:0px
+   }
+   .menu-name a {
+    text-decoration: none;
+  }
+   .menu-name li {
+    list-style: none;
+    margin-right: 12px;
+  }
+  /* section  */
+  .container{
+    width:100%;
+  }
+  .infomation {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .details {
+    padding: 10px;
+  }
+  .details h1 {
+    font-size: 30px;
+  }
+  .right-side img {
+    width: 60%;
+  }
+  /* logo 
+  ---------- */
+  .logo img {
+    width: 41px;
+  }
+  /* products -----------
+  ---------------------- */
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+  }
+  .product img {
+    width: 60%;
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+  .product h1 {
+    margin: 0px;
+    font-size: 18px;
+  }
+  .product h3 {
+    margin: 2px 0px;
+    font-size: 13px;
+  }
+  .ratings {
+    margin-top: -11px;
+    margin-bottom: -16px;
+  }
+  .fas.fa-star {
+    font-size: 8px;
+    color: orange;
+  }
+  .fas.fa-star-half-alt {
+    color: orange;
+    font-size: 7px;
+  }
+  .rating p {
+    padding: 0px 12px;
+    font-size: 12px;
+  }
+  .info p {
+    font-size: 10px;
+  }
+
+}
+
+/* i pad meadia quearay -------
+-----------------------------*/
+@media only screen and (min-width:668px) and (max-width:992px){
+  .header-container {
+    width: 100%;
+  }
+  .header-container h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 0px;
+  }
+  .menu-name {
+    display: flex;
+    justify-content: center;
+  }
+/* section ----------
+--------------- */
+.container {
+  width: 100%;
+  
+}
+.infomation {
+  display: flex;
+  margin-top: 42px;
+}
+.right-side img {
+  width: 84%;
+}
+.details h1 {
+  font-size: 28px;
+}
+/* logo -----------
+-------------- */
+.logo img {
+  width: 57%;
+}
+/* products ----------------
+----------------------- */
+.products {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+.product img {
+  width: 70%;
+}
+}
 
