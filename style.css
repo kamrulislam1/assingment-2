@@ -3,6 +3,7 @@
 --------------------- */
 body{
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
  /*--------- header style form here --
  ---------------------------------------*/
@@ -73,4 +74,52 @@ body{
   .amazon {
     margin-top: 12px;
   }
+  /* products style form here   */
+  .product-heading {
+    text-align: center;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+  }
+  .product {
+    background: whitesmoke;
+    margin: auto;
+    padding: 12px;
+    border-radius: 7px;
+  }
+  .product h1 {
+    margin: 0px;
+    font-size: 25px;
+  }
+  .product h3 {
+    margin: 2px 0px;
+    font-size: 22px;
+  }
+  .ratings {
+    margin-top: -13px;
+    margin-bottom: -27px;
+  }
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  .fas.fa-star {
+    font-size: 12px;
+    color: orange;
+  }
+  .fas.fa-star-half-alt {
+    color: orange;
+    font-size: 12px;
+  }
+  .rating p {
+    padding: 0px 12px;
+  }
+  .bottom a {
+    float: right;
+    margin: 12px 0;
+    text-decoration: none;
+    color: #c44569;
   
