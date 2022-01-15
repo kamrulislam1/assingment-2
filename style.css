@@ -191,9 +191,7 @@ body{
   ---------------------- */
   .products {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 12px;
-    grid-row-gap: 12px;
+    grid-template-columns: repeat(1,1fr);
   }
   .product img {
     width: 60%;
@@ -206,26 +204,26 @@ body{
   }
   .product h3 {
     margin: 2px 0px;
-    font-size: 13px;
+    font-size: 22px;
   }
   .ratings {
     margin-top: -11px;
     margin-bottom: -16px;
   }
   .fas.fa-star {
-    font-size: 8px;
+    font-size: 11px;
     color: orange;
   }
   .fas.fa-star-half-alt {
     color: orange;
-    font-size: 7px;
+    font-size: 11px;
   }
   .rating p {
     padding: 0px 12px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .info p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }
@@ -271,12 +269,12 @@ body{
 ----------------------- */
 .products {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   grid-column-gap: 12px;
   grid-row-gap: 12px;
 }
 .product img {
-  width: 70%;
+  width: 100%;
 }
 }
 
